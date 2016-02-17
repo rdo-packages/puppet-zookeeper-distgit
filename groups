@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-2b66191414c41a7d66affe4e4e29f75d67be6124	puppet-zookeeper-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+3ccb1ed3002387645befaf2e1be06b12fef35bdd       	puppet-zookeeper-distgit-core
+2b66191414c41a7d66affe4e4e29f75d67be6124        	puppet-zookeeper-distgit-ptl
+global:Registered-Users		Registered Users
