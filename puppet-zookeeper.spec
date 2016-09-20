@@ -7,8 +7,8 @@
 
 
 Name:           puppet-zookeeper
-Version:        XXX
-Release:        XXX
+Version:        0.6.1
+Release:        1%{?alphatag}%{?dist}
 Summary:        Module for managing Apache Zookeeper
 License:        Apache-2.0
 
@@ -50,4 +50,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/zookeeper/
 
 
 %changelog
+* Tue Sep 20 2016 Haikel Guemar <hguemar@fedoraproject.org> - 0.6.1-1.3bc30fc.git
+- Newton update 0.6.1 (3bc30fc4c53d3f017175780b0605169e2ee2ed99)
+
 
