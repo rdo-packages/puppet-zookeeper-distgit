@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-zookeeper
-%global commit 3bc30fc4c53d3f017175780b0605169e2ee2ed99
+%global commit da686b4da03a64ec30c210189f98a774e40b62ac
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-zookeeper
-Version:        XXX
-Release:        XXX
+Version:        0.7.3
+Release:        1%{?alphatag}%{?dist}
 Summary:        Module for managing Apache Zookeeper
 License:        ASL 2.0
 
@@ -50,5 +50,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/zookeeper/
 
 
 %changelog
+* Fri Aug 25 2017 Alfredo Moralejo <amoralej@redhat.com> 0.7.3-1.da686b4git
+- Pike update 0.7.3 (da686b4da03a64ec30c210189f98a774e40b62ac)
 
 
