@@ -54,4 +54,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/zookeeper/
 - Update to pre 0.9.0 (5877cbf66372dba04d3a1b84016b83d4e06320bc)
 
 
-
