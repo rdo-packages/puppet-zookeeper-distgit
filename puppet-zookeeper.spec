@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-zookeeper
-%global commit 3bc30fc4c53d3f017175780b0605169e2ee2ed99
+%global commit 18a5101a9619cba9b82d6ec3de49af4363db8b5d
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-zookeeper
-Version:        XXX
-Release:        XXX
+Version:        1.1.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Module for managing Apache Zookeeper
 License:        ASL 2.0
 
@@ -50,5 +50,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/zookeeper/
 
 
 %changelog
+* Thu Mar 25 2021 RDO <dev@lists.rdoproject.org> 1.1.0-1.18a5101git
+- Update to post 1.1.0 (18a5101a9619cba9b82d6ec3de49af4363db8b5d)
+
 
 
