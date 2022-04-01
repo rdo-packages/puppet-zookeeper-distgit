@@ -16,6 +16,23 @@
       "message": "nothing provides puppet-datacat",
       "revId": "d645e36483a82995ef5f668ff0469d1cb902b9d9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7530c9dd_caec86a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-04-01T13:24:05Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "d645e36483a82995ef5f668ff0469d1cb902b9d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
